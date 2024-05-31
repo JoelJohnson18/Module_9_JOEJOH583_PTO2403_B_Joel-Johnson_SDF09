@@ -9,45 +9,52 @@
 </head>
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
-                        <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
-                            </div>
-                        </div>
+        <div class="container px-6 py-12 mx-auto">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                <div class="sm:col-span-2">
+                    <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-white">Subscribe.</h1>
+                    <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                        <input id="email" type="text" class="px-4 py-2 text-[#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]">
+                        <button class="px-6 py-2.5 ml-0 md:ml-2 text-[#313131] bg-white border border-[#313131] rounded-md dark:bg-[#313131] dark:text-white dark:border-white hover:bg-[#d86943] hover:text-white focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]">
+                            Subscribe
+                        </button>
                     </div>
-                    
-                    <hr class="my-6 border-[#d86943]">
-                    
-                    <div class="flex">
-                        <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
-                        </a>
+                </div>
+                <div>
+                    <p class="text-[#313131] dark:text-white font-semibold">Quick Links</p>
+                    <div class="flex flex-col mt-2 space-y-2">
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">Home</a>
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">Who We Are</a>
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">Our Philosophy</a>
                     </div>
+                </div>
+                <div>
+                    <p class="text-[#313131] dark:text-white font-semibold">Technologies</p>
+                    <div class="flex flex-col mt-2 space-y-2">
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">HTML</a>
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">CSS</a>
+                        <a href="#" class="text-[#313131] dark:text-white hover:underline">JavaScript</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-[#d86943]">
+            <div class="flex items-center justify-between">
+                <a href="#">
+                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="Codespace Logo">
+                </a>
+                <div class="flex space-x-4">
+                    <a href="#" aria-label="Facebook">
+                        <svg class="w-6 h-6 text-[#313131] dark:text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.351C0 23.4.6 24 1.325 24H12.82v-9.294H9.692V11.06h3.128V8.411c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.797.143v3.24l-1.919.001c-1.505 0-1.797.715-1.797 1.763v2.308h3.586l-.467 3.646h-3.119V24h6.112C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg class="w-6 h-6 text-[#313131] dark:text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.918 9.918 0 01-2.828.775 4.932 4.932 0 002.165-2.725c-.951.564-2.005.974-3.127 1.195A4.92 4.92 0 0016.616 3c-2.717 0-4.92 2.203-4.92 4.917 0 .385.044.76.126 1.12C7.688 8.807 4.067 6.867 1.64 3.925a4.908 4.908 0 00-.666 2.471c0 1.71.87 3.217 2.188 4.096a4.904 4.904 0 01-2.228-.616c-.053 2.281 1.581 4.415 3.874 4.885a4.94 4.94 0 01-2.223.084 4.927 4.927 0 004.6 3.419A9.876 9.876 0 010 21.54a13.944 13.944 0 007.548 2.212c9.056 0 14.009-7.503 14.009-14.009 0-.213-.004-.426-.014-.637A10.012 10.012 0 0024 4.557z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg class="w-6 h-6 text-[#313131] dark:text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.333 3.608 1.308.976.975 1.247 2.242 1.308 3.608.058 1.265.069 1.645.069 4.849 0 3.204-.011 3.584-.069 4.849-.062 1.366-.333 2.633-1.308 3.608-.975.976-2.242 1.247-3.608 1.308-1.265.058-1.645.069-4.849.069-3.204 0-3.584-.011-4.849-.069-1.366-.062-2.633-.333-3.608-1.308-.976-.975-1.247-2.242-1.308-3.608-.058-1.265-.069-1.645-.069-4.849 0-3.204.011-3.584.069-4.849.062-1.366.333-2.633 1.308-3.608.975-.976 2.242-1.247 3.608-1.308 1.265-.058 1.645-.069 4.849-.069M12 0C8.741 0 8.332.012 7.052.071 5.768.13 4.602.388 3.59 1.401 2.578 2.414 2.32 3.58 2.261 4.864.202 6.144.19 6.554.19 9.813s.012 3.669.071 4.949c.059 1.265.317 2.431 1.33 3.444 1.012 1.013 2.178 1.271 3.444 1.33 1.265.058 1.675.071 4.949.071 3.274 0 3.683-.013 4.949-.071 1.266-.059 2.431-.317 3.444-1.33 1.013-1.012 1.271-2.178 1.33-3.444.058-1.265.071-1.675.071-4.949s-.013-3.669-.071-4.949c-.059-1.266-.317-2.431-1.33-3.444-1.013-1.013-2.178-1.271-3.444-1.33C15.675.012 15.265 0 12 0z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
